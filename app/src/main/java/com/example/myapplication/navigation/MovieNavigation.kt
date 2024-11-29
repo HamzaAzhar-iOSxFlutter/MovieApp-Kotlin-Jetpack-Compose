@@ -23,7 +23,7 @@ fun MovieNavigation() {
             ) { arg ->
             DetailsScreen(
                 navController,
-                arguments = arg.arguments?.getString("movie"))
+                id = arg.arguments?.getString("movie"))
         }
     }
 }
